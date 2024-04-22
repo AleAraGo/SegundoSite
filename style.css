@@ -1,0 +1,78 @@
+@font-face {
+    font-family: xmen;
+    src: url(Fonts/x-man.ttf);
+}
+body{
+    background-image: url(img/x_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    }
+.logo img{
+    width: 120px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 120px;
+    color: white;
+    font-family: "xmen";
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.519);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.info p {
+    font-size: 30px;
+    color: red;
+    font-family:"xmen", cursive;
+    font-weight: 600;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.512);
+    margin-top: 20px;
+}
+#inputNome{
+    width: 430px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#inputEmail{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    border-style: none;
+}
+.botaoLogin{
+    /*largura*/
+    width: 170px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    /* Arredondar borda */
+    border-radius: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-style: none;
+    font-family:"xmen";
+   font-weight: 400;   
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+}
+.entrarEmail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+}
